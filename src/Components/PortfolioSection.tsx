@@ -1,8 +1,8 @@
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Button } from "./ui/button";
-import { Badge } from "./ui/badge";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card.tsx";
+import { Button } from "./ui/button.tsx";
+import { Badge } from "./ui/badge.tsx";
 import { ExternalLink, Github } from "lucide-react";
-import { ImageWithFallback } from "./figma/ImageWithFallback";
+import { ImageWithFallback } from "./figma/ImageWithFallback.tsx";
 
 export function PortfolioSection() {
   const projects = [

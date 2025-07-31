@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import { Button } from "./ui/button.tsx";
 import { Github, Linkedin, Menu, X } from "lucide-react";
 import { useState } from "react";
 

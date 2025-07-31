@@ -1,4 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 @custom-variant dark (&:is(.dark *));
+
+.body{
+  background: pink;
+}
 
 :root {
   --font-size: 14px;

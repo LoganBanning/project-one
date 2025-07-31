@@ -1,4 +1,4 @@
-import { Button } from "./ui/button";
+import { Button } from "./ui/button.tsx";
 import { Github, Linkedin, Mail, Heart } from "lucide-react";
 
 export function Footer() {

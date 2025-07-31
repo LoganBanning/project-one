@@ -1,6 +1,6 @@
 import * as React from "react";
 
-import { cn } from "./utils";
+import { cn } from "./utils.ts";
 
 function Card({ className, ...props }: React.ComponentProps<"div">) {
   return (
@@ -34,7 +34,7 @@ function CardTitle({ className, ...props }: React.ComponentProps<"div">) {
       data-slot="card-title"
       className={cn("leading-none", className)}
       {...props}
-    />
+    >Hello</h4>
   );
 }
 

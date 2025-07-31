@@ -1,4 +1,4 @@
-import { Card, CardContent } from "./ui/card";
+import { Card, CardContent } from "./ui/card.tsx";
 import { Code, Database, Globe, Smartphone } from "lucide-react";
 
 export function AboutSection() {

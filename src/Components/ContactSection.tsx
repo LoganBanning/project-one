@@ -1,8 +1,8 @@
-import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
-import { Button } from "./ui/button";
-import { Input } from "./ui/input";
-import { Textarea } from "./ui/textarea";
-import { Label } from "./ui/label";
+import { Card, CardContent, CardHeader, CardTitle } from "./ui/card.tsx";
+import { Button } from "./ui/button.tsx";
+import { Input } from "./ui/input.tsx";
+import { Textarea } from "./ui/textarea.tsx";
+import { Label } from "./ui/label.tsx";
 import { Mail, MapPin, Phone, Send } from "lucide-react";
 import { useState } from "react";
 
